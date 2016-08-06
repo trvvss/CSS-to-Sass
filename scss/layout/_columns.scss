@@ -1,0 +1,15 @@
+/* PORTFOLIO STYLING */
+
+
+.portfolio-section {
+	background-color: $white;
+	padding-bottom: 3em;
+}
+
+	.portfolio-pic {
+		@extend %pic;
+	}
+
+	.portfolio-text {
+		padding: .25em 1em;
+	}

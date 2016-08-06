@@ -1,0 +1,26 @@
+//include rules like primary and secondary content//
+
+/* CONTACT STYLING */
+
+
+.contact-section {
+  padding: 2em 1em;
+  border-bottom: 1px solid $light-grey;
+  @extend %pic;
+}
+
+#contact-title {
+  @extend %uppercase;
+}
+
+#contact-text {
+  padding-bottom: 1em;
+}
+
+.bold-text {
+  @extend %bolder;
+}
+
+.init-color {
+  color: initial;
+}
