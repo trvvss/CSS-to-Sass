@@ -4,12 +4,26 @@
 .portfolio-section {
 	background-color: $white;
 	padding-bottom: 3em;
+  
+    @media #{$brk-narrow} {
+      padding-bottom: 2em;
+    }
 }
 
-	.portfolio-pic {
-		@extend %pic;
-	}
+.portfolio-pic {
+    @extend %pic;
+}
 
-	.portfolio-text {
-		padding: .25em 1em;
-	}
+.portfolio-text {
+    padding: .25em 1em;
+}
+
+.portfolio-tile {
+  @media #{$brk-narrow}{
+    display: inline-block;
+    width: 45%;
+  }
+  @media #{$brk-wide}{
+    width: 30%;
+  }
+}

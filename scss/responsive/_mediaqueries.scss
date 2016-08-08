@@ -1,51 +1,10 @@
 
 /* MEDIA QUERIES */
 
-@media (min-width: 769px) {
+@media (max-width: 768px) {
 	
-	.main-header {
-		padding-bottom: 10em;
-	}
+	
 
-
-		h1 {
-			padding-top: 1em;
-		}
-
-		ul li {
-			display:inline-block;
-			background-color: #fafafa;
-		}
-
-		.bio-text {
-			font-size: 1.25em;
-			text-align: left;
-		}
-
-		.profile-pic {
-			display: block;
-			float: right;
-			width: 40%;
-			margin-left: 1em;
-		}
-	
-	.portfolio-section {
-		padding-top: 2em;
-	}
-	
-		.portfolio-tile {
-			display: inline-block;
-			width: 45%;
-		}
-	
-	#contact-title {
-		font-size: .8em;
-	}
-	
-	#contact-text {
-		font-size: 1.4em;
-	}
-	
 	.contact-section p {
 		font-size: 1.3em;
 	}
@@ -70,7 +29,7 @@
 	}
 }
 
-@media (min-width: 1025px) {
+@media (max-width: 1024px) {
 	
 	.main-header {
 		padding-bottom: 15%;
@@ -100,17 +59,10 @@
 	h2 {
 		padding-bottom: 2em;
 	}
-	.portfolio-tile {
-			width: 30%;
-		}
+	
 	.contact-section {
 		width: 80%;
 	}
-		#contact-text {
-			font-size: 1.1em;
-			display: block;
-			margin: 0 auto;
-			width: 65%;
-		}
+
 }
 

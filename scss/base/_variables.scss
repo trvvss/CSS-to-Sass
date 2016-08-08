@@ -9,3 +9,8 @@ $light-grey     : #e7e7e7;
 
 $color-headings : $dark-grey;
 $color-text     : $grey;
+
+// Media Query Breakpoints
+
+$brk-narrow     : '(max-width: 768px)';
+$brk-wide       : '(max-width: 1024px)';

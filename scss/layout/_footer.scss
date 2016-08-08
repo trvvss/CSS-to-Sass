@@ -1,23 +1,22 @@
 footer {
-	padding-bottom: 3em;
-	
+  padding-bottom: 3em;
 }
 
-	#student-name {
-		padding-left: 15px;
-		float: left;
-		@extend %bolder;
-		color: $dark-grey;
-	}
+#student-name {
+  padding-left: 15px;
+  float: left;
+  @extend %bolder;
+  color: $dark-grey;
+}
 
-	#back-to-top {
-        @extends %uppercase;
-		padding-right: 15px;
-		float:right;
-		@extend %bolder;
-		color: $dark-grey;
-	}
+#back-to-top {
+  @extends %uppercase;
+  padding-right: 15px;
+  float:right;
+  @extend %bolder;
+  color: $dark-grey;
+}
 
-	#footer-nav {
-		display: none;
-	}
+#footer-nav {
+  display: none;
+}

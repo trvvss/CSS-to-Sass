@@ -11,10 +11,25 @@
 
 #contact-title {
   @extend %uppercase;
+  
+  @media #{$brk-narrow}{
+    font-size: .8em;
+  }
 }
 
 #contact-text {
   padding-bottom: 1em;
+  
+  media #{$brk-narrow}{
+    font-size: 1.4em;
+    }
+  
+  media #{$brk-wide}{
+    font-size: 1.1em;
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    }
 }
 
 .bold-text {

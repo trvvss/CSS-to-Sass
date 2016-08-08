@@ -1,10 +1,15 @@
 .main-header {
 	padding: .5em;
+  
+  @media #{$brk-narrow} {
+    padding-bottom: 10em;
+  }
 }
 
 ul {
   list-style-type: none;
   padding: .5em;
+  background-color: $light-grey;
 }
 
 ul li {
@@ -12,8 +17,14 @@ ul li {
   display: block;
   margin: .5em;
   padding: .5em;
-  background-color: $white;
+  background-color:  $white;
   @extends %bolder;
+  
+  @media #{brk-narrow} {
+    display:inline-block;
+    background-color: #fafafa;
+  }
+  
 }
 
 .mini-bio {
@@ -21,12 +32,26 @@ ul li {
   margin: .25em;
 }
 
-  .profile-pic {
-    width: 70%;
+.profile-pic {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+
+  @media #{brk-narrow}{
     display: block;
-    margin: 0 auto;
+    float: right;
+    width: 40%;
+    margin-left: 1em;
   }
 
-  .bio-text {
-    padding-top: 1em;
+}
+
+.bio-text {
+  padding-top: 1em;
+
+  @media #{brk-narrow}{
+    font-size: 1.25em;
+    text-align: left;
   }
+
+}
