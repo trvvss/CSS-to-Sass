@@ -12,6 +12,11 @@
 
 .portfolio-pic {
     @extend %pic;
+  
+  @media #{$brk-wide}{
+    width: 30%;
+    margin-right: 5%;
+    }
 }
 
 .portfolio-text {

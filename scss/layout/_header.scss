@@ -4,27 +4,16 @@
   @media #{$brk-narrow} {
     padding-bottom: 10em;
   }
-}
 
-ul {
-  list-style-type: none;
-  padding: .5em;
-  background-color: $light-grey;
-}
-
-ul li {
-  @extend %uppercase;
-  display: block;
-  margin: .5em;
-  padding: .5em;
-  background-color:  $white;
-  @extends %bolder;
-  
-  @media #{brk-narrow} {
-    display:inline-block;
-    background-color: #fafafa;
+  @media #{$brk-wide} {
+    padding-bottom: 15%;
   }
-  
+}
+
+.header-nav {
+  @media #{$brk-wide}{
+    margin:4em;
+  }
 }
 
 .mini-bio {
@@ -54,4 +43,7 @@ ul li {
     text-align: left;
   }
 
+  @media #{brk-wide}{
+    margin-left: 5%;
+  }
 }

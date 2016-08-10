@@ -1,5 +1,9 @@
 footer {
   padding-bottom: 3em;
+  
+  @media #{$brk-narrow}{
+    margin-bottom: 3em;
+  }
 }
 
 #student-name {
@@ -19,4 +23,19 @@ footer {
 
 #footer-nav {
   display: none;
+  
+  @media #{$brk-narrow}{
+    display: inline-block;
+    float:right;
+    padding-right: 1em;
+  }
+}
+
+#footer-nav a {
+  
+  @media #{$brk-narrow}{
+    padding: .2em 1em;
+    font-weight: bolder;
+    color: #3a3a3a;
+  }
 }

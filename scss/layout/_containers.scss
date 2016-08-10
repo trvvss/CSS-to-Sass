@@ -7,6 +7,19 @@
   padding: 2em 1em;
   border-bottom: 1px solid $light-grey;
   @extend %pic;
+  
+  @media #{$brk-wide}{
+   width: 80%; 
+  }
+  
+}
+
+.contact-section p {
+ 
+  @media #{$brk-narrow}{
+    font-size: 1.3em;
+  }
+
 }
 
 #contact-title {
@@ -20,11 +33,11 @@
 #contact-text {
   padding-bottom: 1em;
   
-  media #{$brk-narrow}{
+  @media #{$brk-narrow}{
     font-size: 1.4em;
     }
   
-  media #{$brk-wide}{
+  @media #{$brk-wide}{
     font-size: 1.1em;
     display: block;
     margin: 0 auto;
@@ -32,10 +45,8 @@
     }
 }
 
-.bold-text {
-  @extend %bolder;
-}
-
-.init-color {
-  color: initial;
+#back-to-top {
+  @media #{$brk-narrow}{
+    display:none; 
+  }
 }
