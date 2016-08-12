@@ -1,8 +1,13 @@
 footer {
-  padding-bottom: 3em;
+  padding: 0 1em 3em 1em;
   
-  @media #{$brk-narrow}{
+  @include tablet{
     margin-bottom: 3em;
+  }
+
+  @include desktop{
+    margin: 0 2em;
+    font-size: 1.2em;
   }
 }
 
@@ -14,17 +19,21 @@ footer {
 }
 
 #back-to-top {
-  @extends %uppercase;
+  @extend %uppercase;
   padding-right: 15px;
   float:right;
   @extend %bolder;
   color: $dark-grey;
+  
+  @include tablet{
+    display:none; 
+  }
 }
 
 #footer-nav {
   display: none;
   
-  @media #{$brk-narrow}{
+  @include tablet{
     display: inline-block;
     float:right;
     padding-right: 1em;
@@ -33,9 +42,9 @@ footer {
 
 #footer-nav a {
   
-  @media #{$brk-narrow}{
+  @include tablet{
     padding: .2em 1em;
     font-weight: bolder;
-    color: #3a3a3a;
+    color: $dark-grey;
   }
 }

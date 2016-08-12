@@ -1,7 +1,6 @@
 //Layout Imports
 
-@import 'extends';
-@import 'header';
-@import 'footer';
-@import 'columns';
-@import 'containers';
+@import 'page_sections/header';
+@import 'page_sections/portfolio';
+@import 'page_sections/contact';
+@import 'page_sections/footer';

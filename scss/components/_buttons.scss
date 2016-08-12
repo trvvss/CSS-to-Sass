@@ -1,0 +1,12 @@
+#button_nav {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 1px solid cornflowerblue;
+  background-color: cornflowerblue;
+  position: absolute;
+
+  @include tablet{
+   display: none; 
+  }
+}

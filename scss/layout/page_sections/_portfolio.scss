@@ -1,0 +1,38 @@
+/* PORTFOLIO STYLING */
+
+
+.portfolio-section {
+  background-color: $white;
+  padding-bottom: 3em;
+
+  @include tablet {
+    padding-bottom: 2em;
+  }
+
+  h2 {
+    padding-top: 2%;
+    
+    @include desktop{
+      padding-bottom: 2em; 
+    }
+  }
+
+    .portfolio-tile {
+      @include tablet {
+        display: inline-block;
+        width: 45%;
+      }
+      @include desktop{
+        width: 30%;
+      }
+
+      .portfolio-pic {
+          @extend %pic;
+      }
+
+      .portfolio-text {
+          padding: .25em 1em;
+      }
+    }
+
+}

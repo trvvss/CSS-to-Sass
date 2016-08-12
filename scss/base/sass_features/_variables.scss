@@ -3,7 +3,7 @@
 $white          : #ffffff;
 $grey           : #7f7f7f;
 $dark-grey      : #3a3a3a;
-$light-grey     : #e7e7e7;
+$light-grey     : #fafafa;
 
 // Functional Color Variables
 
@@ -12,7 +12,6 @@ $color-text     : $grey;
 
 // Media Query Breakpoints
 
-$brk-narrow     : '(max-width: 769px)';
-$brk-wide       : '(max-width: 1025px)';
+$brk-tablet     : '(min-width: 769px)';
+$brk-desktop    : '(min-width: 1025px)';
 
-// Sizes (??)

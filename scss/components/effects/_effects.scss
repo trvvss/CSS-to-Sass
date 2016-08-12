@@ -1,0 +1,10 @@
+//// CSS effects to be applied to placeholder site (since the portfolio icons don't link to anything)
+
+.portfolio-pic:active {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .7s ease-in-out;
+} 

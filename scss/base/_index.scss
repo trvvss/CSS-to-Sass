@@ -1,6 +1,8 @@
 //Base Imports
 
-@import 'normalize';
-@import 'variables';
-@import 'mixins';
-@import 'base';
+@import 'normalize/normalize';
+@import 'sass_features/variables';
+@import 'sass_features/mixins';
+@import 'sass_features/extends';
+@import 'sass_features/typography';
+@import 'base_n_elements/base';

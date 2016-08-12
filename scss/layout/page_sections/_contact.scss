@@ -1,0 +1,44 @@
+//include rules like primary and secondary content//
+
+/* CONTACT STYLING */
+
+
+.contact-section {
+  padding: 2em 1em;
+  border-bottom: 1px solid $dark-grey;
+  @extend %pic;
+
+  @include desktop{
+   width: 80%;
+  }
+
+  h3 {
+    padding-top: .7em;
+    
+    @extend %uppercase;
+    @include tablet{
+      font-size: 1.5em;
+      }
+  }
+
+p {
+  @include tablet{
+    font-size: 1.3em;
+    }
+  }
+}
+
+#contact-text {
+  padding-bottom: 1em;
+
+  @include tablet{
+    font-size: 1.4em;
+    }
+
+  @include desktop{
+    font-size: 1.6em;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    }
+}

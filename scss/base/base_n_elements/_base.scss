@@ -1,0 +1,48 @@
+// Styling for HTML Elements
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+  font-family: #{$varela};
+
+}
+
+p {
+	color: $grey;
+}
+
+a {
+	text-decoration: none;
+	color: $grey;
+}
+
+body {
+	color: $dark-grey;
+	text-align: center;
+	background-color: $light-grey;
+}
+
+
+.bold-text {
+  @extend %bolder;
+}
+
+.init-color {
+  color: initial;
+}
+
+
+/* CLEARFIX */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}

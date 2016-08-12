@@ -1,0 +1,85 @@
+.main-header {
+  padding: .5em;
+  
+  @include tablet  {
+    padding-bottom: 10em;
+  }
+
+  @include desktop {
+    padding-bottom: 15%;
+  }
+}
+
+h1 {
+  font-weight: bolder;
+  @include tablet {
+    padding-top: 1em;
+  }
+  @include desktop {
+    display: inline-block;
+    float: left;
+    padding: 0;
+  }
+}
+
+
+.header-nav {
+  @include desktop{
+    margin:4em;
+  }
+  ul {
+    list-style-type: none;
+    padding: .5em;
+    
+    @include desktop{
+      float:right;
+      display:inline-block;
+    }
+
+     li {
+      @extend %uppercase;
+      display: block;
+      margin: .5em;
+      padding: .5em;
+      @extend %bolder;
+      background-color: white;
+
+      @include tablet {
+        display:inline-block;
+        background-color: transparent;
+        }
+      }
+  }
+}
+
+.mini-bio {
+  padding: .5em;
+  margin: .25em;
+
+  .profile-pic {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+
+    @include tablet{
+      display: block;
+      float: right;
+      width: 40%;
+      margin-left: 1em;
+      padding-right: 2%;
+    }
+  }
+
+  .bio-text {
+    padding-top: 1em;
+
+    @include tablet{
+      font-size: 1.25em;
+      text-align: left;
+    }
+
+    @include desktop{
+      margin-left: 5%;
+    }
+  }
+}
